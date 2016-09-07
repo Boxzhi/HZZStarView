@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3F0A7E1CF6E71B006A7E29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F0A7D1CF6E71B006A7E29 /* main.m */; };
+		BE3F0A811CF6E71B006A7E29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F0A801CF6E71B006A7E29 /* AppDelegate.m */; };
+		BE3F0A841CF6E71B006A7E29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F0A831CF6E71B006A7E29 /* ViewController.m */; };
+		BE3F0A871CF6E71B006A7E29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3F0A851CF6E71B006A7E29 /* Main.storyboard */; };
+		BE3F0A891CF6E71C006A7E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3F0A881CF6E71C006A7E29 /* Assets.xcassets */; };
+		BE3F0A8C1CF6E71C006A7E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3F0A8A1CF6E71C006A7E29 /* LaunchScreen.storyboard */; };
+		BE3F0A971CF6E71C006A7E29 /* starViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F0A961CF6E71C006A7E29 /* starViewTests.m */; };
+		BE3F0AA21CF6E71C006A7E29 /* starViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F0AA11CF6E71C006A7E29 /* starViewUITests.m */; };
+		BE3F0AB11CF6E86F006A7E29 /* HZZStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F0AB01CF6E86F006A7E29 /* HZZStarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE3F0A931CF6E71C006A7E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3F0A711CF6E71B006A7E29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3F0A781CF6E71B006A7E29;
+			remoteInfo = starView;
+		};
+		BE3F0A9E1CF6E71C006A7E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3F0A711CF6E71B006A7E29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3F0A781CF6E71B006A7E29;
+			remoteInfo = starView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE3F0A791CF6E71B006A7E29 /* starView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3F0A7D1CF6E71B006A7E29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE3F0A7F1CF6E71B006A7E29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE3F0A801CF6E71B006A7E29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE3F0A821CF6E71B006A7E29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE3F0A831CF6E71B006A7E29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE3F0A861CF6E71B006A7E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE3F0A881CF6E71C006A7E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3F0A8B1CF6E71C006A7E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE3F0A8D1CF6E71C006A7E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3F0A921CF6E71C006A7E29 /* starViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3F0A961CF6E71C006A7E29 /* starViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = starViewTests.m; sourceTree = "<group>"; };
+		BE3F0A981CF6E71C006A7E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3F0A9D1CF6E71C006A7E29 /* starViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3F0AA11CF6E71C006A7E29 /* starViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = starViewUITests.m; sourceTree = "<group>"; };
+		BE3F0AA31CF6E71C006A7E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3F0AAF1CF6E86F006A7E29 /* HZZStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZZStarView.h; sourceTree = SOURCE_ROOT; };
+		BE3F0AB01CF6E86F006A7E29 /* HZZStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZZStarView.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE3F0A761CF6E71B006A7E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3F0A8F1CF6E71C006A7E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3F0A9A1CF6E71C006A7E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE3F0A701CF6E71B006A7E29 = {
+			isa = PBXGroup;
+			children = (
+				BE3F0A7B1CF6E71B006A7E29 /* starView */,
+				BE3F0A951CF6E71C006A7E29 /* starViewTests */,
+				BE3F0AA01CF6E71C006A7E29 /* starViewUITests */,
+				BE3F0A7A1CF6E71B006A7E29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3F0A7A1CF6E71B006A7E29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F0A791CF6E71B006A7E29 /* starView.app */,
+				BE3F0A921CF6E71C006A7E29 /* starViewTests.xctest */,
+				BE3F0A9D1CF6E71C006A7E29 /* starViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3F0A7B1CF6E71B006A7E29 /* starView */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F0AAF1CF6E86F006A7E29 /* HZZStarView.h */,
+				BE3F0AB01CF6E86F006A7E29 /* HZZStarView.m */,
+				BE3F0A821CF6E71B006A7E29 /* ViewController.h */,
+				BE3F0A831CF6E71B006A7E29 /* ViewController.m */,
+				BE3F0A7F1CF6E71B006A7E29 /* AppDelegate.h */,
+				BE3F0A801CF6E71B006A7E29 /* AppDelegate.m */,
+				BE3F0A851CF6E71B006A7E29 /* Main.storyboard */,
+				BE3F0A881CF6E71C006A7E29 /* Assets.xcassets */,
+				BE3F0A8A1CF6E71C006A7E29 /* LaunchScreen.storyboard */,
+				BE3F0A8D1CF6E71C006A7E29 /* Info.plist */,
+				BE3F0A7C1CF6E71B006A7E29 /* Supporting Files */,
+			);
+			path = starView;
+			sourceTree = "<group>";
+		};
+		BE3F0A7C1CF6E71B006A7E29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F0A7D1CF6E71B006A7E29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE3F0A951CF6E71C006A7E29 /* starViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F0A961CF6E71C006A7E29 /* starViewTests.m */,
+				BE3F0A981CF6E71C006A7E29 /* Info.plist */,
+			);
+			path = starViewTests;
+			sourceTree = "<group>";
+		};
+		BE3F0AA01CF6E71C006A7E29 /* starViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F0AA11CF6E71C006A7E29 /* starViewUITests.m */,
+				BE3F0AA31CF6E71C006A7E29 /* Info.plist */,
+			);
+			path = starViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3F0A781CF6E71B006A7E29 /* starView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3F0AA61CF6E71C006A7E29 /* Build configuration list for PBXNativeTarget "starView" */;
+			buildPhases = (
+				BE3F0A751CF6E71B006A7E29 /* Sources */,
+				BE3F0A761CF6E71B006A7E29 /* Frameworks */,
+				BE3F0A771CF6E71B006A7E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = starView;
+			productName = starView;
+			productReference = BE3F0A791CF6E71B006A7E29 /* starView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE3F0A911CF6E71C006A7E29 /* starViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3F0AA91CF6E71C006A7E29 /* Build configuration list for PBXNativeTarget "starViewTests" */;
+			buildPhases = (
+				BE3F0A8E1CF6E71C006A7E29 /* Sources */,
+				BE3F0A8F1CF6E71C006A7E29 /* Frameworks */,
+				BE3F0A901CF6E71C006A7E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3F0A941CF6E71C006A7E29 /* PBXTargetDependency */,
+			);
+			name = starViewTests;
+			productName = starViewTests;
+			productReference = BE3F0A921CF6E71C006A7E29 /* starViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE3F0A9C1CF6E71C006A7E29 /* starViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3F0AAC1CF6E71C006A7E29 /* Build configuration list for PBXNativeTarget "starViewUITests" */;
+			buildPhases = (
+				BE3F0A991CF6E71C006A7E29 /* Sources */,
+				BE3F0A9A1CF6E71C006A7E29 /* Frameworks */,
+				BE3F0A9B1CF6E71C006A7E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3F0A9F1CF6E71C006A7E29 /* PBXTargetDependency */,
+			);
+			name = starViewUITests;
+			productName = starViewUITests;
+			productReference = BE3F0A9D1CF6E71C006A7E29 /* starViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3F0A711CF6E71B006A7E29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chengzhanghuhang;
+				TargetAttributes = {
+					BE3F0A781CF6E71B006A7E29 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BE3F0A911CF6E71C006A7E29 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BE3F0A781CF6E71B006A7E29;
+					};
+					BE3F0A9C1CF6E71C006A7E29 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BE3F0A781CF6E71B006A7E29;
+					};
+				};
+			};
+			buildConfigurationList = BE3F0A741CF6E71B006A7E29 /* Build configuration list for PBXProject "starView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3F0A701CF6E71B006A7E29;
+			productRefGroup = BE3F0A7A1CF6E71B006A7E29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3F0A781CF6E71B006A7E29 /* starView */,
+				BE3F0A911CF6E71C006A7E29 /* starViewTests */,
+				BE3F0A9C1CF6E71C006A7E29 /* starViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE3F0A771CF6E71B006A7E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3F0A8C1CF6E71C006A7E29 /* LaunchScreen.storyboard in Resources */,
+				BE3F0A891CF6E71C006A7E29 /* Assets.xcassets in Resources */,
+				BE3F0A871CF6E71B006A7E29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3F0A901CF6E71C006A7E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3F0A9B1CF6E71C006A7E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE3F0A751CF6E71B006A7E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3F0A841CF6E71B006A7E29 /* ViewController.m in Sources */,
+				BE3F0A811CF6E71B006A7E29 /* AppDelegate.m in Sources */,
+				BE3F0AB11CF6E86F006A7E29 /* HZZStarView.m in Sources */,
+				BE3F0A7E1CF6E71B006A7E29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3F0A8E1CF6E71C006A7E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3F0A971CF6E71C006A7E29 /* starViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3F0A991CF6E71C006A7E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3F0AA21CF6E71C006A7E29 /* starViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE3F0A941CF6E71C006A7E29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3F0A781CF6E71B006A7E29 /* starView */;
+			targetProxy = BE3F0A931CF6E71C006A7E29 /* PBXContainerItemProxy */;
+		};
+		BE3F0A9F1CF6E71C006A7E29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3F0A781CF6E71B006A7E29 /* starView */;
+			targetProxy = BE3F0A9E1CF6E71C006A7E29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE3F0A851CF6E71B006A7E29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3F0A861CF6E71B006A7E29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE3F0A8A1CF6E71C006A7E29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3F0A8B1CF6E71C006A7E29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE3F0AA41CF6E71C006A7E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE3F0AA51CF6E71C006A7E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE3F0AA71CF6E71C006A7E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = starView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.czhhw.starView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE3F0AA81CF6E71C006A7E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = starView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.czhhw.starView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE3F0AAA1CF6E71C006A7E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = starViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.czhhw.starViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starView.app/starView";
+			};
+			name = Debug;
+		};
+		BE3F0AAB1CF6E71C006A7E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = starViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.czhhw.starViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starView.app/starView";
+			};
+			name = Release;
+		};
+		BE3F0AAD1CF6E71C006A7E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = starViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.czhhw.starViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = starView;
+			};
+			name = Debug;
+		};
+		BE3F0AAE1CF6E71C006A7E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = starViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.czhhw.starViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = starView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3F0A741CF6E71B006A7E29 /* Build configuration list for PBXProject "starView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3F0AA41CF6E71C006A7E29 /* Debug */,
+				BE3F0AA51CF6E71C006A7E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3F0AA61CF6E71C006A7E29 /* Build configuration list for PBXNativeTarget "starView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3F0AA71CF6E71C006A7E29 /* Debug */,
+				BE3F0AA81CF6E71C006A7E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3F0AA91CF6E71C006A7E29 /* Build configuration list for PBXNativeTarget "starViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3F0AAA1CF6E71C006A7E29 /* Debug */,
+				BE3F0AAB1CF6E71C006A7E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3F0AAC1CF6E71C006A7E29 /* Build configuration list for PBXNativeTarget "starViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3F0AAD1CF6E71C006A7E29 /* Debug */,
+				BE3F0AAE1CF6E71C006A7E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3F0A711CF6E71B006A7E29 /* Project object */;
+}
